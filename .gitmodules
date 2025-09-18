@@ -1,0 +1,3 @@
+[submodule "tangram-protobuf-messages"]
+	path = tangram-protobuf-messages
+	url = https://gitlab.com/tangram-vision/oss/tangram-protobuf-messages.git

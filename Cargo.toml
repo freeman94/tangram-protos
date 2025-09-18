@@ -1,0 +1,19 @@
+[package]
+name = "foxglove-protos"
+version = "0.1.1"
+edition = "2021"
+license = "MPL-2.0"
+description = "A crate for interacting with the foxglove protos."
+homepage = "https://github.com/saronic-technologies/foxglove-protos"
+repository = "https://github.com/saronic-technologies/foxglove-protos"
+readme = "README.md"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+protobuf = "3.4.0"
+
+[build-dependencies]
+glob = "0.3.1"
+protobuf-codegen = "3.2.0"
