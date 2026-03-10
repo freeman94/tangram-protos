@@ -3,6 +3,9 @@ name = "tangram-protos"
 version = "0.2.0"
 edition = "2021"
 description = "A crate for interacting with the tangram protos."
+license = "MIT"
+repository = "https://github.com/freeman94/tangram-protos"
+readme = "README.md"
 
 [features]
 ros = []
