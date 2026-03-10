@@ -1,8 +1,11 @@
 [package]
 name = "tangram-protos"
-version = "0.0.1"
+version = "0.2.0"
 edition = "2021"
 description = "A crate for interacting with the tangram protos."
+
+[features]
+ros = []
 
 [dependencies]
 protobuf = "3.4.0"
